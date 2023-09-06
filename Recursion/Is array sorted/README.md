@@ -28,6 +28,7 @@ console.log(isStrictlyDescending(ascendingArray)); // Expected output: false
 function isStrictlyDescending(arr) {
   // Your code here
 }
+```
 
 ## Constraints
 The elements in the array are integers within the range of a 32-bit signed integer.
