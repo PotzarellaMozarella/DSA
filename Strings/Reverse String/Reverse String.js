@@ -15,4 +15,7 @@ function reverseString(str) {
   const inputString = "Hello, World!";
   const reversedString = reverseString(inputString);
   console.log(reversedString);
+
+// TC: O(N) 
+// SC: O(N) 
   
