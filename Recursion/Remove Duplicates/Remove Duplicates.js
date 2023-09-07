@@ -17,7 +17,8 @@ function removeDuplicates1(str, idx = 0, newStr = "") {
     // Recursively process the next character in the string
     return removeDuplicates1(str, idx + 1, newStr);
 }
-
+// TC: O(N)
+// SC: O(N)
 
 //approach 2
 function removeDuplicates2(str) {
@@ -30,7 +31,8 @@ function removeDuplicates2(str) {
     // recursively calling removeDuplicates on the rest of the string
     else return str[0] + removeDuplicates2(str.slice(1))
 }
-
+// TC: O(N)
+// SC: O(1)
 const inputString = "hello";
 console.log(removeDuplicates1(inputString)); // Expected output: "helo"
 console.log(removeDuplicates2(inputString)); // Expected output: "helo"
